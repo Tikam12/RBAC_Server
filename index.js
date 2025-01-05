@@ -15,7 +15,7 @@ MongoConnect(process.env.MONGO_URL)
 
 // view Engine
 const cors = require("cors");
-app.use(cors({ origin: "http://localhost:3000" })); // Replace with your frontend URL
+app.use(cors({ origin: "https://rbac-client-zeta.vercel.app" })); // Replace with your frontend URL
 
 // MiddleWares
 app.use(express.json());
